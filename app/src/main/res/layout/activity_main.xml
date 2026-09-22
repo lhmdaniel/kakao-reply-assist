@@ -1,0 +1,73 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:padding="24dp">
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="답장 추천 도우미 설정"
+        android:textSize="20sp"
+        android:textStyle="bold"
+        android:layout_marginBottom="20dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="1. Claude API 키"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <EditText
+        android:id="@+id/apiKeyInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="sk-ant-..."
+        android:inputType="textPassword"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/saveKeyButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="API 키 저장"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="2. 접근성 권한"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/openAccessibilityButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="접근성 설정 열기"
+        android:layout_marginBottom="24dp" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="3. 다른 앱 위에 표시 권한"
+        android:textStyle="bold"
+        android:layout_marginBottom="8dp" />
+
+    <Button
+        android:id="@+id/openOverlayButton"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="오버레이 권한 설정 열기" />
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="24dp"
+        android:textColor="#6B6355"
+        android:textSize="12sp"
+        android:text="세 가지를 모두 설정한 뒤 카카오톡 채팅방을 열면 화면에 작은 플로팅 버튼이 나타납니다." />
+
+</LinearLayout>

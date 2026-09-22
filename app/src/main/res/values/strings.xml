@@ -1,0 +1,5 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">답장 추천 도우미</string>
+    <string name="accessibility_service_description">카카오톡 채팅방을 열었을 때 최근 대화 내용을 읽어 답장 후보를 추천하고, 선택한 후보를 입력창에 채워주기 위한 서비스입니다. 메시지를 대신 전송하지는 않습니다.</string>
+</resources>
